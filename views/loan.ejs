@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Make a Loan</title>
+  </head>
+
+  <body>
+    <h1>Make a Loan</h1>
+    <h3><%= message %></h3>
+    <br />
+
+    <h3><%= `${item.Item_Title} - ${item.Item_ID}` %></h3>
+
+    <br /><br />
+
+    <form method="POST">
+      <input type="text" name="URN" placeholder="Enter your URN number" />
+      <input type="submit" />
+    </form>
+
+
+    <br />
+    <a href="/">Back to home</a>
+  </body>
+</html>
